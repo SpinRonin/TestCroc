@@ -130,7 +130,7 @@ input[type="radio"].visually-hidden {
   padding: 10px 30px;
 }
 
-.transtest-enter {
+.transtest-enter-active, .transtest-leave-active {
     transition: all .5s;
 }
 
