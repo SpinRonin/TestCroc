@@ -134,6 +134,11 @@ input[type="radio"].visually-hidden {
     transition: all .5s;
 }
 
+.transtest-enter-active, .transtest-leave-to {
+    transform: translateY(30px);
+    opacity: 0;
+}
+
 .main-navigation-wrapper {
   width: 100%;
   margin-bottom: 60px;
