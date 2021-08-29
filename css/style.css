@@ -130,11 +130,11 @@ input[type="radio"].visually-hidden {
   padding: 10px 30px;
 }
 
-.transtest-enter-active, .transtest-leave-active {
+.trans-enter-active, .trans-leave-active {
     transition: all .5s;
 }
 
-.transtest-enter-active, .transtest-leave-to {
+.trans-enter-active, .trans-leave-to {
     transform: translateY(30px);
     opacity: 0;
 }
