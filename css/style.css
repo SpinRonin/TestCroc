@@ -130,6 +130,10 @@ input[type="radio"].visually-hidden {
   padding: 10px 30px;
 }
 
+.transtest-enter-active {
+    transition: all .5s;
+}
+
 .main-navigation-wrapper {
   width: 100%;
   margin-bottom: 60px;
